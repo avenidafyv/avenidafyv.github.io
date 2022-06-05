@@ -1,0 +1,198 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1{font-size: 2.25em;}
+h2{font-size: 1.8em;}
+h3{font-size: 1.25em;}
+p{font-size: 1.1em;}
+
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10vh;
+    padding-top: 40px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+header a:hover{
+    color: white;
+}
+
+header h2{
+    color: darkred;
+}
+
+button{
+    font-size: 1.25em;
+    color: white;
+    background-color: darkred;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    padding: 3px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button:hover{
+    color: rgb(30,30,30);
+}
+
+#hero{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/hero.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero h1{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 3em;
+    font-weight: 790;
+}
+
+#hero button{
+    font-size: 2em;
+}
+
+#nosotros{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 150px 18px;
+}
+
+#nosotros p{
+    font-weight: bold;
+}
+
+#nosotros h1{
+    padding-bottom: 8px;
+}
+
+#nosotros a{
+    text-decoration: none;
+    color: darkred;
+}
+
+#nosotros a:hover{
+    color: rgb(100,0,0);
+}
+
+#prod{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 150px 18px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#prod h1{
+    padding-bottom: 18px;
+}
+
+#prod h3{
+    padding-bottom: 5px;
+}
+
+#prod p{
+    padding-bottom: 5px;
+}
+
+#prod .carta{
+    padding-bottom: 20px;
+}
+
+.carta{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    border-radius: 100px;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/manzanas.jpg");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/peras.jpeg");
+}
+
+#cont{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/whatsapp.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding: 200px 15px;
+    text-align: center;
+}
+
+#cont h3{
+    border: 2px solid darkred;
+    background-color: white;
+    border-radius: 100px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+c{color: darkred;}
+b{font-weight: bold;}
