@@ -93,7 +93,7 @@ ul li ul li a{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    min-height: 90vh;
     color: white;
     text-align: center;
     justify-content: center;
@@ -103,8 +103,17 @@ ul li ul li a{
     flex-direction: column;
 }
 
+#hero img{
+    height: 500px;
+    margin-bottom: 40;
+}
+
 #hero h1{
     padding: 10px 50px;
+}
+
+#hero form{
+    padding-bottom: 60px;
 }
 
 
